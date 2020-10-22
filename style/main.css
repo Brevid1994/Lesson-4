@@ -1,0 +1,673 @@
+/* Default styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 1400px;
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 0 auto;
+}
+
+/*сразу скажу, что так как я начал классы задавть не правильно
+ и потом не смог толком сам в них рахобраться, 
+ то стиль текстов в каждой секции я задавал заново, зато набил руку
+ При проверке CSS, я понял то, что лучше я сам укажу на некоторые ошибки, 
+ чем смогу их исправить по фату, мне прощу будет сверстать все заново */
+
+/*navigation content*/
+
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 400;
+    background: black;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 320px;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.it {
+    color: rgba(236, 121, 121, 1);
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 305px;
+}
+
+.menu>a {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Header content*/
+
+header {
+    background: url(../img/background-1\ 1.png) center no-repeat;
+}
+
+.header { 
+    position: relative;
+    margin: 0;
+    padding-left: 110px;
+    background: rgba(0, 0, 0, 0.45) center no-repeat; 
+}
+
+.header_logo {
+    display: inline-block;
+    margin-right: 1161px;
+    margin-top: 109px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header>h2 {
+    margin: 0;
+    margin-right: 746px;
+    padding-top: 32px;
+    text-align: left;
+    color: white;
+}
+
+.header>hr {
+    margin: 0;
+    /* я не понимаю что тут за косяк, 
+    но без маржин 0 у меня все уезжает в разные стороны */
+    margin-top: 56px;
+    margin-bottom: 39px;
+    border-color: white;
+}
+
+.header>p {
+    margin: 0;
+    padding-bottom: 0px;
+    margin-bottom: 39px;
+    padding-right: 1008px;
+    text-align: left;
+}
+
+.download_header {
+    padding-right: 1155px;
+    padding-bottom: 112px;
+    text-align: left;
+}
+
+.link_download_header {
+    padding: 11px 25px ;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.rectangke_header {
+    position: absolute;
+    top: 18.5%;
+    left: 65.6%;
+    height: 370px;
+    width: 370px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+}
+
+.trial {
+    margin-bottom: 43px;
+    margin-top: 18px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.trial>span {
+    text-transform: uppercase;
+    color: rgba(236, 121, 121, 1);
+}
+
+.input {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    width: 252px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    border-color: rgba(189, 189, 189, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.gs_area {
+    margin-top: 30px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(236, 121, 121, 1);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.gs_button {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+/* social icons content*/
+
+.social_icon {
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 110px;
+    text-align: left;
+    background: rgba(248, 239, 239, 1);
+}
+
+.text_social {
+    display: inline-block;
+}
+
+.text_up {
+    margin-bottom: 14px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.text_down {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(134, 135, 139, 1);
+}
+
+.link_social {
+    display: inline-block;
+    height: 42px;
+    width: 684px;
+    margin-left: 129px;
+    padding-top: 25px;
+    background: url(../img/social__icons_media.png) center no-repeat;
+}
+
+.links_social {
+    display: inline-block;
+    margin-right: 4.15px;
+    height: 100%;
+    width: 90px;
+}
+
+
+/*Features content*/
+
+.features {
+    background: url(../img/towers.png) no-repeat right;
+    background-position-x: 90%;
+    background-position-y: 100px;
+    margin-bottom: 205px;
+    text-align: left;
+}
+
+.features_block_tab {
+    display: inline-block;
+    height: 100%;
+    padding-left: 111px;
+    margin-top: 125px;
+    margin-right: 59px;
+}
+
+.tab_area {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tab {
+    border-radius: 8px;
+    padding: 45px 35px;
+    background: rgba(51, 51, 51, 1);
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tab:hover {
+    background: rgba(236, 121, 121, 1);
+}
+
+.features_block_text {
+    display: inline-block;
+    height: 100%;
+    width: 572px;
+    margin-left: 59px;
+}
+
+.header_features {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text_features {
+    margin-top: 58px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.features_button_area {
+    margin-top: 89px;
+}
+
+.features_button {
+    padding: 11px 25px; /*а вот эта штука мешает мне выровнять текс с ТАБ1 */
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(236, 121, 121, 1);
+}
+
+
+/* Our process content*/
+
+h2 {
+    padding-top: 100px;
+    margin-left: 496px;
+    margin-right: 495px;
+    font-size: 36px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.line {
+    margin-left: 668px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 64px;
+    border: 1px solid #E72424;
+}
+
+.description {
+    margin-left: 519px;
+    margin-right: 518px;
+    padding-bottom: 67px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+}
+
+.all_card {
+    padding-bottom: 88px;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    height: 225px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.circle_lamp {
+    width: 70px;
+    height: 70px;
+    margin-left: 141px;
+    background: url(../img/lamp.png) no-repeat center;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.circle_keyboard {
+    width: 70px;
+    height: 70px;
+    margin-left: 141px;
+    background: url(../img/keyboard.png) no-repeat center;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.circle_lightning {
+    width: 70px;
+    height: 70px;
+    margin-left: 141px;
+    background: url(../img/lightning.png) no-repeat center;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-family: 'Open sans';
+    font-weight: 700;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*pricing content*/
+
+.pricing {
+    background: rgba(245, 245, 245, 1);
+}
+
+.pricing>h2 {
+    padding-top: 80px;
+}
+
+.pricing>hr {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.cardprice {
+    display: inline-block;
+    margin-top: 47px;
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-bottom: 74px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(134, 135, 139, 1);
+}
+
+.cardprice_title {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 16px 144px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(51, 51, 51, 1);
+}
+
+.cardprice_price {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 26px 144px;
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(51, 51, 51, 1);
+}
+
+.cardprice_description {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 17px 144px;
+    font-size: 14px;
+    font-weight: 600;
+    background: rgba(51, 51, 51, 1);
+}
+
+.cardprice_item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 10px 144px;
+    list-style: none;
+    background:rgba(255, 255, 255, 1);
+}
+
+/*testimonials content*/
+
+.testimonials {
+    height: 600px;
+    background: white;
+}
+
+.testimonials_head>h2 {
+    margin: 0;
+    padding-top: 80px;
+}
+
+.testimonials_head>line {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.reviev_container {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.reviev_text {
+    height: 110px;
+    width: 289px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+    border-radius: 7px;
+    background: rgba(226, 226, 226, 1);
+}
+
+.blockquote {
+    margin: 7px 14px; 
+}
+
+.reviewer {
+    margin-top: 22px;
+}
+
+.user_photo {
+    margin-top: 22px;
+    margin-right: 23px;
+}
+
+.user {
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+.full_name {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.position {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(134, 135, 139, 1)
+}
+
+
+/* noname section content*/
+
+.section {
+    background: teal url(../img/background\ 1.png) center no-repeat;
+}
+
+.mask {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.title_section {
+    margin: auto;
+    padding-top: 76px;
+    color: white;   
+}
+
+.line-section {
+    margin-top: 48px;
+    border-color: white;
+}
+
+.text_section {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.download {
+    display: inline-block;
+    margin-top: 30px;
+    padding-bottom: 59px;
+}
+
+.link_download {
+    margin-left: 632px;
+    margin-right: 633px;
+    padding: 11px 26px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/*Contact section*/
+
+.contact_us {
+    height: 700px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.contact_us>h2 {
+    padding-bottom: 80px;
+}
+
+.contact_us>line {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.container_contact {
+    display: inline-block;
+    margin-right: 111px;
+}
+
+.contact_box {
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.contact {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.input_contact {
+    width: 478px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(189, 189, 189, 1);
+}
+
+.container_message {
+    display: inline-block;
+    margin-left: 111px;
+}
+
+.send_message {
+    margin-top: 69px;
+}
+
+.button_message {
+    padding: 11px 32px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(236, 121, 121, 1);
+}
+
+/* Footer content*/
+
+footer {
+    padding-top: 30px;
+    background: black;
+}
+
+.social_icons {
+    display: inline-block;
+    width: 317px;
+    text-align: center;
+    background: url(../img/social__icons.png) center no-repeat;
+}
+
+.social_network {
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+    margin-left: 1px;       
+}
+
+.footer_link {
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+.text_footer {
+    margin-top: 18px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
